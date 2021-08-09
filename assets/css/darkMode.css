@@ -1,0 +1,198 @@
+/*DARK MODE*/
+#darkmode{
+	background-color: #2a2f32;
+	transition: .5s;
+	color: #eee;
+	z-index: 4;
+}
+
+/*darkmode top bar*/
+#darkmode .top-bar{
+	background-color: #2a2f32;
+
+}
+#darkmode .bt-menu{
+	box-shadow: none;
+	transition: .5s;
+
+}
+#darkmode .top-bar{
+	box-shadow: 1px 1px 10px #222;
+	transition: .5s;
+
+}
+
+/*darkmode search*/
+#darkmode .box-list-search{
+	background-color: #2a2f32;
+}
+
+/*darkmode menu aplikasi*/
+#darkmode .box-list-app{
+	transition: .5s;
+	background-color: #2a2f32;
+}
+#darkmode .box-list-app li a:hover{
+	background-color: transparent !important;
+}
+#darkmode .box-list-app{
+	transition: .5s;
+	box-shadow: 1px 1px 10px #222;
+	margin-top: 10px !important;
+}
+
+/*darkmode list-menu*/
+#darkmode .box-list-menu{
+	background-color: #2a2f32;
+	box-shadow: 1px 1px 10px #222;
+	transition: .1s;
+	margin-top: 10px !important;
+}
+
+
+#darkmode .box-list-menu li a:hover{
+	background-color: transparent !important;
+}
+
+#darkmode .menu li a:hover{
+	background-color: #25292b;
+}
+#darkmode #btn-view-search:hover{
+	background-color: #25292b;
+	border-radius: 50%;
+	box-shadow: 1px 1px 10px #25292b;
+	box-sizing:border-box;
+}
+
+/*darkmode menu darkmode*/
+#darkmode .bt-menu:hover{
+	background: rgb(78 115 223) !important;
+}
+#darkmode #btn-sun:hover{
+	background-color: transparent;
+}
+/*darkmode banner*/
+#darkmode .content-banner p{
+	color: #bbb;
+}
+
+/*darkmode ARTIKEL-2 LAYANAN*/
+#darkmode .box-article-2{
+	transition: .5s;
+	background-color: #30393e;
+	box-shadow: 1px 1px 10px #222;
+}
+#darkmode .box-article-2:hover{
+	box-shadow: 1px 1px 15px #111;
+}
+#darkmode .box-article-2 table td{
+	color: #eee;
+}
+
+/*darkmode ARTIKEL-3 FAQ*/
+#darkmode .content-faq-bagan1,
+#darkmode .content-faq-bagan2,
+#darkmode .content-faq-bagan3,
+#darkmode .content-faq-bagan4{
+	transition: .5s;
+	background-color: #30393e;
+	box-shadow: 1px 1px 10px #222;
+	color: #ddd;
+}
+
+/*darlmode ARTIKEL-4 PAYMENT*/
+#darkmode .article-4{
+	transition: .5s;
+	background-color: #30393e;
+	box-shadow: 1px 1px 10px #222;
+}
+#darkmode .box-article-4 p{
+	color: #ddd;
+}
+#darkmode .payment table td{
+	transition: .5s;
+	background-color: #2a2f32;
+	box-shadow: 1px 1px 10px #222;
+}
+
+/*darkmode ARTIKEL-6 ABOUT-CONTENT*/
+#darkmode .box-article-6{
+	transition: .5s;
+	box-shadow: 1px 1px 10px #222;
+	background-color: #30393e;
+}
+#darkmode .layer1{
+	transition: 3s;
+	background-color: rgba(48, 57, 62, 0.6);
+}
+#darkmode .layer2{
+	transition: 6s;
+	background-color: rgba(48, 57, 62, 0.6);
+}
+
+#darkmode .card-article-6 p{
+	color: #ddd;
+}
+#darkmode .card-article-6 span{
+	color: #ccc;
+}
+#darkmode .card-article-6 strong{
+	color: #ddd;
+}
+
+/*darkmode FOOTER*/
+#darkmode .bg-footer{
+	transition: .5s;
+	box-shadow: 1px 1px 10px #222;
+	background-color: #30393e;
+}
+#darkmode .box-footer p{
+	color: #ddd;
+}
+#darkmode .copyright{
+	border-top: 1px solid #555;
+}
+#darkmode .copyright ul li i,
+#darkmode .copyright p{
+	color: #ddd;
+}
+#darkmode .copyright ul li i:hover{
+	color: #06b7d2;
+}
+
+/*darkmode bottom-bar*/
+#darkmode .bottom-bar{
+	transition: .5s;
+	box-shadow: 1px 1px 10px #222;
+	background-color: #30393e;
+	border-top: none;
+}
+#darkmode .menu-bottom-bar a{
+	color: #ddd;
+}
+#darkmode .menu-bottom-bar li:hover{
+	background-color: #2a343a;
+}
+#darkmode .menu-bottom-bar li:hover a{
+	color: #06b7d2;
+}
+
+
+/*darkmode menu-mobile*/
+#darkmode .box-menu-mobile{
+	transition: .5s;
+	background-color: #2a2f32;
+	box-shadow: 1px 1px 10px #222;
+}
+#darkmode label #btn-close-menu-mobile{
+	transition: .5s;
+	background-color: #30393e;
+	box-shadow: 1px 1px 10px #222;
+	color: #ddd;
+}
+
+#darkmode .link-menu-mobile i,
+#darkmode .link-menu-mobile button,
+#darkmode .link-menu-mobile span{
+	color: #ddd;
+}

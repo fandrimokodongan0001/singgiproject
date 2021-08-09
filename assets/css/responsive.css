@@ -1,0 +1,451 @@
+/*=== DESKTOP TO SMALL MOBILE ===*/
+@media only screen and (min-width: 120px) and (max-width: 1080px){
+	.container{
+		width: 100%;
+		padding: 10px;
+		box-sizing: border-box;
+	}
+
+	/*top bar*/
+	.top-bar{
+		width: 100%;
+	}
+
+	/*nav*/
+	.nav{
+		width: 100%;
+	}
+
+	/*banner*/
+	.content-banner{
+		width: 100%;
+	}
+
+	/*title artikel*/
+	.title-article{
+		width: 100%;
+	}
+
+	/*teknisi*/
+	.container-box-article-1{
+		width: 100%;
+	}
+
+	/*about*/
+	.article-6{
+		width: 100%;
+	}
+	.layer1,
+	.layer2{
+		display: none;
+	}
+
+	/*footer*/
+	.bg-footer{
+		width: 100%;
+	}
+	.footer{
+		width: 100%;
+	}
+
+	/*footer*/
+	.copyright{
+		box-sizing: border-box;
+		padding: 10px;
+		width: 100%;
+	}
+
+}
+
+
+/*SET RESPONSIVE*/
+@media only screen and (min-width: 120px) and (max-width: 920px){
+	/*container*/
+	.container{
+		margin-top: 150px;
+	}
+
+	/*content banner*/
+	.content-banner{
+		margin: auto;
+		float: none;
+		text-align: center;
+		margin-top: -20px;
+	}
+	.content-banner h2{
+		font-size: 28px;
+		line-height: 40px;
+	}
+	.content-banner a{
+		margin: auto;
+	}
+
+	/*hero banner*/
+	.hero-banner{
+		display: none;
+	}
+	/*=== END BANNER ===*/
+
+	/*=== TITLE ARTICLE ===*/
+	.title-article h1{
+		font-size: 24px;
+	}
+	.title-article h2{
+		font-size: 16px;
+	}
+	.title-article p{
+		font-size: 13px;
+	}
+	/*=== END TITLE ARTICLE ===*/
+
+	
+
+
+}
+
+
+/*==============================
+SET RESPONSIVE TOP-BAR/MOBILE-MENU 
+================================*/
+
+/*SET RESPONSIVE ARTIKEL-2 LAYANAN 858-120*/
+@media only screen and (min-width: 120px) and (max-width: 858px){
+
+	/*top bar*/
+	.top-bar{
+
+	}
+	.nav{
+		margin: 10px;
+	}
+	.logo-top-bar{
+		margin: 0;
+	}
+	.logo-top-bar img{
+		width: 50px;
+	}
+	.logo-top-bar h2{
+		font-size: 16px;
+	}
+
+	.menu{
+		display: none;
+	}
+
+	/*mobile menu*/
+	.menu-mobile{
+		display: block;
+	}
+
+}
+
+/*==============================
+END SET RESPONSIVE TOP-BAR/MOBILE-MENU 
+================================*/
+
+
+
+/*==============================
+SET RESPONSIVE ARTIKEL-2 LAYANAN 
+================================*/
+
+/*SET RESPONSIVE ARTIKEL-2 LAYANAN 1070-120*/
+@media only screen and (min-width: 120px) and (max-width: 1070px){
+
+	/*=== ARTIKEL-2 LAYANAN ===*/
+	.box-article-2{
+		width: 470px;
+	}
+	/*=== END ARTIKEL-2 LAYANAN ===*/
+
+}
+
+/*SET RESPONSIVE ARTIKEL-2 LAYANAN 1016-120*/
+@media only screen and (min-width: 120px) and (max-width: 1016px){
+
+	/*=== ARTIKEL-2 LAYANAN ===*/
+	.box-article-2{
+		width: 450px;
+	}
+	/*=== END ARTIKEL-2 LAYANAN ===*/
+
+}
+
+/*SET RESPONSIVE ARTIKEL-2 LAYANAN 966-120*/
+@media only screen and (min-width: 120px) and (max-width: 966px){
+
+	/*=== ARTIKEL-2 LAYANAN ===*/
+	.box-article-2{
+		width: 430px;
+	}
+	/*=== END ARTIKEL-2 LAYANAN ===*/
+
+}
+
+/*SET RESPONSIVE ARTIKEL-2 LAYANAN 944-120*/
+@media only screen and (min-width: 120px) and (max-width: 944px){
+
+	/*=== ARTIKEL-2 LAYANAN ===*/
+	.box-article-2{
+		width: 410px;
+	}
+	/*=== END ARTIKEL-2 LAYANAN ===*/
+
+}
+
+/*SET RESPONSIVE ARTIKEL-2 LAYANAN 910-120*/
+@media only screen and (min-width: 120px) and (max-width: 910px){
+
+	/*=== ARTIKEL-2 LAYANAN ===*/
+	.box-article-2{
+		width: 390px;
+	}
+	/*=== END ARTIKEL-2 LAYANAN ===*/
+
+}
+/*SET RESPONSIVE ARTIKEL-2 LAYANAN 865-120*/
+@media only screen and (min-width: 120px) and (max-width: 865px){
+
+	/*=== ARTIKEL-2 LAYANAN ===*/
+	.box-article-2{
+		width: 100%;
+		margin-left: 0;
+	}
+	/*=== END ARTIKEL-2 LAYANAN ===*/
+
+}
+
+/*==============================
+END SET RESPONSIVE ARTIKEL-2 LAYANAN 
+================================*/
+
+
+
+/*==============================
+SET RESPONSIVE ARTIKEL-3 FAQ 
+================================*/
+/*SET RESPONSIVE ARTIKEL-2 LAYANAN 980-120*/
+@media only screen and (min-width: 120px) and (max-width: 980px){
+	.box-article-3{
+		margin: auto;
+		width: 100%;
+	}
+	.box-article-3 img{
+		display: none;
+	}
+
+	label #btn-view-faq-bagan1,
+	label #btn-view-faq-bagan2,
+	label #btn-view-faq-bagan3,
+	label #btn-view-faq-bagan4{
+		font-size: 15px;
+	}
+
+}
+/*==============================
+END SET RESPONSIVE ARTIKEL-3 FAQ 
+================================*/
+
+
+
+/*==============================
+SET RESPONSIVE ARTIKEL-4 PAYMENT 
+================================*/
+/*SET RESPONSIVE ARTIKEL-4 PAYMENT 980-120*/
+@media only screen and (min-width: 120px) and (max-width: 980px){
+	.box-article-4{
+		margin: auto;
+		text-align: center;
+		width: 100%;
+		margin-bottom: 20px;
+	}
+	.payment{
+		text-align: center;
+		width: 100%;
+	}	
+	
+
+}
+/*SET RESPONSIVE ARTIKEL-4 PAYMENT 720-120*/
+@media only screen and (min-width: 120px) and (max-width: 720px){
+	.article-4{
+		box-shadow: none;
+		background-color: transparent;
+	}
+	.payment-desktop{
+		display: none;
+	}
+
+	.payment table{
+		display: block;
+	}
+
+	#darkmode .article-4{
+		box-shadow: none;
+		background-color: transparent;
+	}
+	#darkmode .payment-desktop{
+		display: none;
+	}
+
+	#darkmode .payment table{
+		display: block;
+	}
+}
+
+
+
+/*==============================
+END SET RESPONSIVE ARTIKEL-4 PAYMENT 
+================================*/
+
+
+
+/*==============================
+SET RESPONSIVE ARTIKEL-6 ABOUT-CONTENT 
+================================*/
+/*SET RESPONSIVE ARTIKEL-4 ABOUT-CONTENT 1080-120*/
+@media only screen and (min-width: 120px) and (max-width: 1080px){
+	.card-article-6{
+		width: 100%;
+	}
+	.card-article-6-mobile{
+		display: block !important;
+		text-align: center;
+	}
+	.card-article-6-mobile img{
+		width: 400px;
+	}
+
+	.card-article-6 img{
+		display: none;
+	}
+	
+}
+
+/*SET RESPONSIVE ARTIKEL-4 ABOUT-CONTENT 720-120*/
+@media only screen and (min-width: 120px) and (max-width: 580px){
+	.box-article-6{
+		padding: 0;
+	}
+
+	.card-article-6-mobile img{
+		padding: 10px;
+		width: 100% !important;
+		box-sizing: border-box;
+	}
+
+	.card-article-6{
+		padding: 10px;
+		box-sizing: border-box;
+	}
+	.card-article-6 strong{
+		font-size: 14px;
+	}
+	.card-article-6 span{
+		font-size: 14px;
+	}
+	
+}
+
+
+/*SET RESPONSIVE ARTIKEL-4 ABOUT & ABOUT-CONTENT 720-120*/
+@media only screen and (min-width: 120px) and (max-width: 720px){
+	.article-5{
+		margin-top: 20px;
+		padding-top: 20px;
+	}
+
+	.box-article-6{
+		margin-top: 0;
+	}
+
+}
+
+/*==============================
+END SET RESPONSIVE ARTIKEL-6 ABOUT-CONTENT 
+================================*/
+
+
+
+/*==============================
+SET RESPONSIVE FOOTER
+================================*/
+/*SET RESPONSIVE FOOTER 1080-120*/
+@media only screen and (min-width: 120px) and (max-width: 1080px){
+	.card-article-6{
+		width: 100%;
+	}
+	.card-article-6-mobile{
+		display: block !important;
+		text-align: center;
+	}
+	.card-article-6-mobile img{
+		width: 400px;
+	}
+
+	.card-article-6 img{
+		display: none;
+	}
+
+	.footer{
+		width: 100%;
+		padding: 0;
+	}
+
+	.box-footer{
+		width: 100%;
+		margin: 0;
+		padding: 10px;
+		box-sizing: border-box;
+	}
+	.box-footer h2{
+		font-size: 14px;
+	}
+	.box-footer iframe{
+		height: 350px;
+	}
+
+	
+}
+
+
+/*SET RESPONSIVE FOOTER 720-120*/
+@media only screen and (min-width: 120px) and (max-width: 720px){
+	.copyright{
+		padding-bottom: 100px;
+	}
+	.copyright p{
+		width: 100%;
+		text-align: center;
+	}
+
+	.copyright ul{
+		width: 100%;
+		text-align: center;
+		padding: 0;
+	}
+
+	.copyright ul li i{
+		font-size: 22px;
+		text-align: center;
+	}
+}
+
+/*==============================
+END SET RESPONSIVE FOOTER
+================================*/
+
+
+
+/*=== SET RESPONSIVE MENU BOTTOM BAR ===*/
+@media only screen and (min-width: 120px) and (max-width: 858px){
+	.bottom-bar{
+		display: block;
+	}
+}
+
+/*=== END SET RESPONSIVE  MENU BOTTOM BAR ===*/
+
+
+
